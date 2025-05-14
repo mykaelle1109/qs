@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Normas</title>
+  <link rel="stylesheet" href="css/styles.css">
+
+  <style>
+  
+
+/* Estilos da seção principal */
+main {
+    padding: 20px;
+}
+
+.normas h1 {
+    color: #1e40af;;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.normas p {
+    margin-bottom: 15px;
+}
+
+/* Estilos da tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(71, 102, 236, 0.05);
+}
+
+thead th {
+    background-color: #2563eb;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid #3f7dc5;
+}
+
+tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Estilos da linha do tempo */
+.normas h2 {
+    color: #2563eb;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.normas ul {
+    list-style: none;
+    padding: 0;
+}
+
+.normas ul li {
+    padding: 8px 0;
+    border-left: 3px solid #ddd;
+    margin-left: 10px;
+    padding-left: 15px;
+    position: relative;
+}
+
+.normas ul li:before {
+    content: '';
+    position: absolute;
+    left: -6px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 10px;
+    background-color: #2563eb;
+    border-radius: 50%;
+}
+
+
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="iso25010.html">ISO 25010</a></li>
+        <li><a href="caracteristicas.html">Características</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="normas.html">Normas</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="normas">
+      <h1>Comparação das Normas de Qualidade</h1>
+
+      <p>Veja a seguir uma comparação entre três normas importantes relacionadas à qualidade de software:</p>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Norma</th>
+            <th>Ano</th>
+            <th>Objetivo</th>
+            <th>Aplicação</th>
+            <th>Diferencial</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>ISO 9001</td>
+            <td>1987</td>
+            <td>Gestão da qualidade organizacional</td>
+            <td>Qualidade do processo</td>
+            <td>Foco em gestão de processos</td>
+          </tr>
+          <tr>
+            <td>ISO 9126</td>
+            <td>1991</td>
+            <td>Qualidade de produto de software</td>
+            <td>Qualidade externa/interna</td>
+            <td>Pioneira no tema de qualidade de software</td>
+          </tr>
+          <tr>
+            <td>ISO 25010</td>
+            <td>2011</td>
+            <td>Evolução da ISO 9126</td>
+            <td>Modelo robusto com 8 características</td>
+            <td>Subdivide características para melhor análise</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>Linha do Tempo</h2>
+      <ul>
+        <li><strong>1987:</strong> Lançamento da ISO 9001</li>
+        <li><strong>1991:</strong> Publicação da ISO 9126</li>
+        <li><strong>2011:</strong> Lançamento da ISO 25010</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Qualidade de Software</p>
+  </footer>
+</body>
+</html>
